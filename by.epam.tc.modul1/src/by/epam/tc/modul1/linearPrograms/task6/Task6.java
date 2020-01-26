@@ -14,7 +14,7 @@ public class Task6 {
 	static boolean res;
 
 	public static void main(String[] args) {
-		System.out.println("Ââåäèòå Õ:");
+		System.out.println("Введите X");
 		Scanner scan = new Scanner(System.in);
 		x = scan.nextInt();
 		System.out.println("Ââåäèòå Y: ");
