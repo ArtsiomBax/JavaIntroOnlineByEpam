@@ -17,23 +17,22 @@ public class Task6 {
 		System.out.println("Введите X");
 		Scanner scan = new Scanner(System.in);
 		x = scan.nextInt();
-		System.out.println("Ââåäèòå Y: ");
+		System.out.println("Введите Y:");
 		y = scan.nextInt();
-		System.out.println("Êîîðäèíàòû òî÷êè X = " + x + "; " + "Y= " + y + ";");
+		System.out.println("Координаты точки X = " + x + "; " + "Y= " + y + ";");
 		scan.close();
 		if (x <= 4 & x >= -4 & y <= 0 & y >= -3) {
 			res = true;
 			System.out
-					.println("Òî÷êà ñ êîîàðäèíàòîé (" + x + "," + y + ")" + " ïðåíàäëåæèò çàêðàøåííîé îáëàñòè: " + res);
+					.println("Точка с кооардинатой (" + x + "," + y + ")" + " пренадлежит закрашенной области: " + res
 		} else if (x <= 2 & x >= -2 & y <= 4 & y >= -3) {
 			res = true;
 			System.out
-					.println("Òî÷êà ñ êîîàðäèíàòîé (" + x + "," + y + ")" + " ïðåíàäëåæèò çàêðàøåííîé îáëàñòè: " + res);
+					.println("Точка с кооардинатой (" + x + "," + y + ")" + " пренадлежит закрашенной области: " + res
 		} else {
 			res = false;
 			System.out
-					.println("Òî÷êà ñ êîîàðäèíàòîé (" + x + "," + y + ")" + " ïðåíàäëåæèò çàêðàøåííîé îáëàñòè: " + res);
-
+					.println("Точка с кооардинатой (" + x + "," + y + ")" + " пренадлежит закрашенной области: " + res
 		}
 
 	}
