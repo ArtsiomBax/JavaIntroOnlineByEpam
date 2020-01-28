@@ -1,14 +1,14 @@
 package by.epam.tc.modul1.linearPrograms.task2;
 
 /*
-Вычислите значение выражения по формуле (все переменные принимают действительные значения): 
+Р’С‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёРµ РІС‹СЂР°Р¶РµРЅРёСЏ РїРѕ С„РѕСЂРјСѓР»Рµ:
 
 b + (sqrt(b^2 + 4ac)/2a) - a^3c + b^-2
 
 */
 
 public class Task2 {
-	static double a = 1;
+	static double a = 1; 
 	static double b = 2;
 	static double c = 3;
 	static double x;
