@@ -3,7 +3,7 @@ package by.epam.tc.modul1.branches.task2;
 import java.util.Scanner;
 
 /*
-	Найти max{min(a, b), min(c, d)}. 
+	РќР°Р№С‚Рё max{min(a, b), min(c, d)}.
 
 */
 
@@ -18,14 +18,14 @@ public class Task2 {
 
 	public static void main(String[] args) {
 
-		System.out.println("Введите число A: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ A: ");
 		Scanner scan = new Scanner(System.in);
 		a = scan.nextInt();
-		System.out.println("Введите число B: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ B: ");
 		b = scan.nextInt();
-		System.out.println("Введите число C: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ C: ");
 		c = scan.nextInt();
-		System.out.println("Введите число D: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ D: ");
 		d = scan.nextInt();
 		scan.close();
 

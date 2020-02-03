@@ -1,7 +1,7 @@
 package by.epam.tc.modul1.branches.task5;
 
 /*
- 	Вычислить значение функции:
+ 	Р’С‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё:
  
  */
 
@@ -13,11 +13,11 @@ public class Task5 {
 
 		if (x <= 3) {
 			fX = Math.pow(x, 2) - 3 * x + 9;
-			System.out.println("F(x) при (х <=3) = " + fX);
+			System.out.println("F(x) РїСЂРё (X <=3) = " + fX);
 		}
 		if (x > 3) {
 			fX = 1 / (Math.pow(x, 3) + 6);
-			System.out.println("F(x) при (х >3) = " + fX);
+			System.out.println("F(x) РїСЂРё (X >3) = " + fX);
 		}
 
 	}
