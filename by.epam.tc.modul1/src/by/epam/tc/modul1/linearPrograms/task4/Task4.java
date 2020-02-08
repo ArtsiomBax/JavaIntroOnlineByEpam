@@ -10,7 +10,7 @@ public class Task4 {
 	static double res;
 
 	public static void main(String[] args) {
-		int n = (int) r; // èçâëåêàåì öåëóþ ÷àñòü ÷èñëà
+		int n = (int) r; // получаем целую часть
 
 		double d = r - n;
 		double nnn = (double) n / 1000;
