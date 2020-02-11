@@ -15,12 +15,13 @@ public class Task6 {
 
 	public static void main(String[] args) {
 		System.out.println("Введите X");
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		x = scan.nextInt();
 		System.out.println("Введите Y:");
 		y = scan.nextInt();
 		System.out.println("Координаты точки X = " + x + "; " + "Y= " + y + ";");
-		scan.close();
+
 		if (x <= 4 & x >= -4 & y <= 0 & y >= -3) {
 			res = true;
 			System.out

@@ -19,6 +19,7 @@ public class Task2 {
 	public static void main(String[] args) {
 
 		System.out.println("Введите A: ");
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		a = scan.nextInt();
 		System.out.println("Введите B: ");
@@ -27,7 +28,6 @@ public class Task2 {
 		c = scan.nextInt();
 		System.out.println("Введите D: ");
 		d = scan.nextInt();
-		scan.close();
 
 		if (a > b) {
 			minAB = b;
